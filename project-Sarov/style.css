@@ -1,0 +1,354 @@
+html {
+    background-color: #363636;
+    scroll-behavior: smooth;
+}
+a {
+    text-decoration: none;
+    color:#3F2512
+}
+body {
+    margin-top: 30px;
+    width: 910px;
+    height: 2674px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #c7c7c7;
+}
+.header {
+    position: relative;
+    height: 135px;
+    background-color: #ffffff;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
+    font-family: 'Gabriola';
+
+}
+.icon-head {
+    position: absolute;
+    margin-left: 35px;
+    margin-bottom:11px;
+}
+.title {
+    position: absolute;
+    width: 242px;
+    height: 76px;
+    margin-left: 104px;
+    margin-top: 31px;
+    font-style: normal;
+    text-align: center;
+    color: #3F2512;
+    font-size: 47px;
+    line-height: 37px;   
+}
+.knopka1 {
+    font-size: 45px;
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 56px;
+    width: 140px;
+    height: 70px;
+    text-align: center;
+    line-height: 34px;
+}
+.knopka2 {
+    font-size: 45px;
+    position: absolute;
+    margin-left: 745px;
+    margin-top: 56px;
+    width: 86px;
+    height: 31px;
+    text-align: center;
+    line-height: 34px;
+}
+
+.knopka1:hover {
+    color: #835d41;
+}
+
+.knopka2:hover {
+    color: #835d41;
+}
+.line-head1 {
+    position: absolute;
+    width: 95px;
+    border: 1px solid #3F2512;
+    margin-top: 95px;
+    margin-left: 550px;
+}
+.line-head2 {
+    position: absolute;
+    width: 110px;
+    border: 1px solid #3F2512;
+    margin-left: 735px;
+    margin-top: 95px;
+}
+.main {
+    height: 2452px;
+    position: relative;
+    background-color: #ffffff;
+    overflow: hidden
+}
+.black {
+    position: absolute;
+    background-color: black;
+    width: 500px;
+    height: 296px;
+    transform: rotate(-38deg);
+    margin-left: -146px;
+    margin-top: -120px
+}
+.aurum {
+    position: absolute;
+    margin-left: 356px;
+    margin-top: -10px;
+}
+.back {
+    position: absolute;
+    margin-top: -22px;
+}
+.church {
+    position: absolute;
+    margin-top: 403px;
+}
+.pustinka {
+    position: absolute;
+    left: 346px;
+    top: 528px;
+}
+.sobor {
+    position: absolute;
+    top: 794px;
+    left: 432px;
+}
+.near-pustinka {
+    position: absolute;
+    left: 461px;
+    top: 989px;
+}
+.sobor2 {
+    position: absolute;
+    bottom: -5px;
+    right: 0;
+}
+.gerb {
+    position: absolute;
+    right: 156px;
+    top: 206px;
+}
+.saints {
+    position: absolute;
+    left: 349px;
+    top: 1028px;
+}
+.serafim {
+    position: absolute;
+    left: 498px;
+    top: 1171px;
+}
+
+footer {
+    position: relative;
+    background-color: #ffffff;
+    border-top: 1px solid black;
+    width: 912px;
+    height: 87px;
+}
+
+.year {
+    position: absolute;
+    left: 448px;
+    top: 5px;
+    font-family: 'Gabriolla';
+    font-size: 48px;    
+}
+#map {
+    position: absolute;
+    width: 910px;
+    height: 1727px;
+    top: 745px;
+}
+  
+.radio {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90px;
+    height: 400px;
+    top:1460px;
+    left: 54px;
+}
+
+.radio-in {
+    background-color: #ffffff;
+    width: 79px;
+    height: 79px;
+    background: #ffffff;
+
+    border-radius: 10px;
+    position: relative;
+    transition: all ease 250ms;
+    border: 4px solid #BFE2FF; 
+    display: block;
+}
+.map-img {
+   
+    width: 80px;
+    height: 80px;
+    
+}
+.radio-button input {
+    display: none;
+}
+.radio .radio-button:hover .radio-in {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.radio .radio-button input:checked + .radio-in {
+    border: 4px solid #337AB7;
+}
+
+.text-1 {
+    position: absolute;
+    top: 703px;
+    left: 390px;
+    font-size: 60px;
+    text-shadow: white 1px 1px 0, white -1px -1px 0, 
+    white -1px 1px 0, white 1px -1px 0;
+    color: #3F2512;
+    font-weight: bolder;
+    font-family: 'Gabriola';
+    pointer-events: none;
+}
+.text-2 {
+    position: absolute;
+    top: 903px;
+    left: 510px;
+    font-size: 35px;
+    text-shadow: white 1px 1px 0, white -1px -1px 0, 
+    white -1px 1px 0, white 1px -1px 0;
+    color: #3F2512;
+    font-weight: bolder;
+    font-family: 'Gabriola';
+    text-align: center;
+    line-height: 37px;  
+    pointer-events: none;
+}
+.text-3 {
+    position: absolute;
+    top: 1065px;
+    left: 512px;
+    font-size: 35px;
+    text-shadow: white 1px 1px 0, white -1px -1px 0, 
+    white -1px 1px 0, white 1px -1px 0;
+    color: #3F2512;
+    font-weight: bolder;
+    font-family: 'Gabriola';
+    text-align: center;
+    line-height: 37px;  
+    pointer-events: none;
+}
+.fon, .sobor, .near-pustinka {
+    opacity: 0.8;
+    transition: all ease 250ms;
+    
+}
+.fon:hover {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease 250ms;
+}
+.sobor:hover {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease 250ms;
+}
+.near-pustinka:hover {
+    opacity: 1;
+    visibility: visible;
+    transition: all ease 250ms;
+}
+
+.hystmodal {
+    display: flex;
+}
+
+
+.hy {
+    color: #3F2512;
+    font-weight: 600;
+    font-family: 'Nova';
+    font-size: 50px;
+    
+}
+.opinion, .usp-opin {
+    color: #3F2512;
+    font-size: 28px;
+}
+.hystmodal__close {
+    left: 1250px
+}
+
+.opinion-photo {
+    border: 6px solid black;
+    border-radius: 10px;
+    float:left;
+    margin: 10px 15px 0px 0
+}
+
+br {
+    padding: 30px;
+}
+
+.usp-photo {
+    height: 533px;
+    width: 800px;
+    border: 7px solid #835d41;
+    border-radius: 10px;
+}
+
+.fact {
+    color: #3F2512;
+    font-weight: 600;
+    font-family: 'Nova';
+    font-size: 30px;
+}
+
+.slider {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    border: 7px solid #835d41;
+    border-radius: 10px;
+    float: right;
+    
+  }
+   
+  .slide, .slide1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s;
+  }
+   
+  .slide:first-child {
+    opacity: 1;
+  }
+  .slide1:first-child {
+    opacity: 1;
+  }
+
+
+
+
+@font-face {
+    font-family: 'Gabriolla';
+    src: url('media/font/gabriola.ttf');
+}
+@font-face {
+    font-family: 'Nova';
+    src: url('/media/font/proximanova_regular.ttf');
+}
+

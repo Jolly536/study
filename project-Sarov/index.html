@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=5c58298f-140f-417d-94b3-bbc0242a8516&lang=ru_RU" type="text/javascript">
+    </script>
+    <link rel="stylesheet" href="biblio/hystModal-0.4/src/hystmodal.css">
+    <script src="biblio/hystModal-0.4/dist/hystmodal.min.js"></script>
+    <title>Святые места Сарова</title>
+</head>
+<body>
+    <div class="hystmodal" id="myModal" aria-hidden="true">
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button data-hystclose class="hystmodal__close">Закрыть</button>
+                <div class="hy">Дальняя пустынка</div>
+                <div class="opinion">Дальняя пустынька – мемориальное место, тесно связанное с биографией <b>Преподобного Серафима Саровского</b>. Название свое получила в связи с удаленностью от монастыря, по сравнению с его Ближней кельей.
+                    <img class="opinion-photo" src="media/photo/Дальняя-пустынь.-003.jpg">
+                    <p><i><b>«Отлучися от обители отец Серафим совершенно на житие в пустыню, месяца августа в дню 27 числа 1794 года»</b></i>, — говорит монастырский летописец о важном событии в жизни преподобного Серафима Саровского, возложившего на себя подвиг пустынножительства.</p>
+                    
+                    <p>Располагалась пустынная келья в пяти верстах от монастыря в лесной чаще, на правом берегу реки Саровки. В 1890-м году было составлено ее описание: <i><b>«Келлия была большая, пятистенная с сенями и крыльцом (с южной стороны), над коим был навесец на столбиках, крыльцо было о трех приступках. В сенцах был огорожен чуланчик, в котором было оконце; в келлии было только одно волоковое окно. Печь стояла в северо-западном углу келлии, и топилась из нея… Вокруг келлии был огород, обнесенный жердневым забором в столбах».</b></i> На огороде старец выращивал овощи для своего пропитания, здесь же у него было несколько ульев для содержания пчел. Основным занятием преподобного во время проживания на Дальней пустыньке было исполнение молитвенного правила.  В праздничные дни и по воскресениям он приходил на богослужения в монастырь.</p>
+                    
+                    <p>Период пустынножительства занимает в биографии старца шестнадцать лет, из них три года (1000 дней и 1000 ночей) в житийной литературе отводится подвигу столпничества, т.е. молению на камне.</p>
+                    
+                    <p>После смерти преподобного келья была вывезена в Дивеевскую общину. На Дальней пустыньке саровские монахи озаботились восстановлением кельи только в 1889 году. Новая келья отличалась размерами и внутренней планировкой – историческая правдоподобность никого из восстановителей не интересовала. Эта келья просуществовала до середины 1940-х годов и была разобрана.</p>
+                    
+                    <p>В 1991 году, после передачи мощей преподобного Серафима Саровского Русской Православной Церкви и торжественного перенесения их в Дивеево, в Сарове начались работы по восстановлению мемориальных мест, связанных с именем великого старца. К пустыньке проложен тротуар, сделана автомобильная стоянка, установлен памятник старцу Серафиму, изготовленный скульптором В.М. Клыковым.</p>
+                    
+                    <p>Келья преподобного воссоздана ко дню празднования 250-летия со дня рождения преподобного Серафима Саровского в 2004 году.</p></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hystmodal" id="myModal-2" aria-hidden="true">           <!--модальное окно-->
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button data-hystclose class="hystmodal__close">Закрыть</button>
+                <div class="hy">Успенский собор</div>
+                <div class="usp-opin">
+                    <div class="slider">
+                        <img src="media/photo/uspenskij-sobor2.jpg" alt="Изображение 1" class="slide">
+                        <img src="media/photo/uspenskiy2.jpg" alt="Изображение 2" class="slide">
+                        <img src="media/photo/usp3.jpg" alt="Изображение 3" class="slide">
+                        <img src="media/photo/usp4.jpg" alt="Изображение 4" class="slide">
+                        <img src="media/photo/usp5.jpg" alt="Изображение 5" class="slide">
+                      </div>
+                      <script>
+                        let currentIndex = 0;
+                            const slides = document.querySelectorAll('.slide');
+                            const slideInterval = 3000;
+                             
+                            function changeSlide() {
+                              slides[currentIndex].style.opacity = 0;
+                              currentIndex = (currentIndex + 1) % slides.length;
+                              slides[currentIndex].style.opacity = 1;
+                            }
+                             
+                            setInterval(changeSlide, slideInterval);
+                            </script>
+                    <p>В 1730 году в Сарове стали строить первый каменный храм. Через 14 лет он был освящен в честь Успения Пресвятой Богородицы епископом Нижегородским и Алатырским Димитрием (Сеченовым).</p>
+                    <p>Первоначально одноглавая Успенская церковь, построенная на средства московского купца Демидова (в обиходе именуемая Демидовской) имела достаточно скромные размеры – длина ее была не более 15 метров.</p>
+                    <p>В 1777 году по проекту послушника Саровской пустыни Ивана Федорова (при монашеском постриге Иоакима) был построен Успенский собор высотой более 60 метров. При строительстве Демидовскую церковь не разрушили, а сделали алтарем нового собора. Такое оригинальное решение позволило сохранить в Сарове первую каменную церковь.</p>
+                    <p>Через год Успенский собор был освящен. У его алтаря были похоронены преподобные Серафим Саровский и Марк Молчальник, над могилами которых была установлена часовня.</p>
+                    <div class="hy">Интересный факт</div>
+                    <div class="fact">Здание собора после закрытия монастыря в 1927 году просуществовало до 1951 года. В советское время этот памятник зодчества был взорван. В 1991 году на месте храма членами исторического объединения «Саровская пустынь» был установлен памятный камень, а в 2002 году – крест с лампадой.</div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="hystmodal" id="myModal-3" aria-hidden="true">           
+        <div class="hystmodal__wrap">
+            <div class="hystmodal__window" role="dialog" aria-modal="true">
+                <button data-hystclose class="hystmodal__close">Закрыть</button>
+                <div class="hy">Ближняя пустынка</div>
+                <div class="usp-opin">
+                    <div class="slider">
+                        <img src="media/photo/blizhnyaya-pustynka1.jpg" alt="Изображение 1" class="slide1">
+                        <img src="media/photo/blizhnyaya-pustynka2.jpg" alt="Изображение 2" class="slide1">
+                        <img src="media/photo/blizhnyaya-pustynka9.jpg" alt="Изображение 3" class="slide1">
+                      </div>
+                      <script>
+                        let currentIndex1 = 0;
+                            const slides1 = document.querySelectorAll('.slide1');
+                            const slideInterval1 = 3000;
+                             
+                            function changeSlide1() {
+                              slides1[currentIndex1].style.opacity = 0;
+                              currentIndex1 = (currentIndex1 + 1) % slides1.length;
+                              slides1[currentIndex1].style.opacity = 1;
+                            }
+                             
+                            setInterval(changeSlide1, slideInterval1);
+                            </script>
+                    <p>В 1825 году преподобный Серафим Саровский по новому явлению ему Божией Матери оставил затвор и принял на себя высший подвиг христианской любви к ближнему – старчество. По выходе из затвора батюшка Серафим делил свое время между Саровским монастырем и новой лесной кельей, так называемой «Ближней пустынькой». Пустынька находилась в двух верстах от обители, на высоком правом берегу реки Саровки. Речка располагалась неподалеку от Богословского источника, впоследствии переименованного в источник преподобного Серафима Саровского.</p>
+                    <p>Изначально старец поселился в келье пустынника отца Дорофея, что в четверти версты от Богословского источника. В 1826 году для преподобного Серафима была построена новая келья, более пригодная для жизни.</p>
+                    <p>Батюшка Серафим обратился с молитвой к Пресвятой Богородице о появлении целительного источника. Он забил рядом с пустынькой, на месте удара жезла Пресвятой Богородицы.</p>
+                    <p>На Ближней пустыньке старец принимал посетителей и исцелял больных, пользуясь водой из родника. 9 декабря 1825 года случилось первое чудо – исцеление дивеевской сестры Прасковьи Степановны Шаблыгиной. Преподобный Серафим Саровский заставил ее выпить студеной воды, чем вылечил у нее кашель. При жизни иеромонаха Серафима источник привели в порядок, заключили в бревенчатый сруб, а дно его было выложено камнями. Многих принимал Серафим на Ближней пустыньке.</p>
+                    <p><i>«Торопливо войдя в монастырь… была поражена необыкновенным зрелищем: между Успенским собором и противоположным одноэтажным домом точно волны двигались густые массы народа».</i> <b>Воспоминание паломницы, 1829 год.</b></p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   <div class = 'header'>
+        <img src='media/photo/значок.png' class="icon-head">
+        <div class="title">Святые места<br/>города Сарова</div>
+        <a href="#maps" class="knopka1">Карта</a>
+        <a href="#mesta" class="knopka2">Места</a>
+        <div class="line-head1"></div>
+        <div class="line-head2"></div>
+   </div> 
+   <div class="main">
+    <div>  <!-- карта -->
+        <div id="map" style="width: 910px; height: 1727px"></div>
+        <script type="text/javascript">
+            // Функция ymaps.ready() будет вызвана, когда
+            // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+            ymaps.ready(init);
+            function init(){
+                // Создание карты.
+                var myMap = new ymaps.Map("map", {
+                    // Координаты центра карты.
+                    // Порядок по умолчанию: «широта, долгота».
+                    // Чтобы не определять координаты центра карты вручную,
+                    // воспользуйтесь инструментом Определение координат.
+                    center: [54.925778, 43.328551], //54.925778, 43.328551
+                    // Уровень масштабирования. Допустимые значения:
+                    // от 0 (весь мир) до 19.
+                    zoom: 18
+                });
+                var placemark = new ymaps.Placemark(new ymaps.GeoPoint(54.925778, 43.328551));
+                placemark.name = 'церковь';
+                myMap.addOverlay(placemark);
+                
+            }
+            const myModal = new HystModal({
+                linkAttributeName: "data-hystmodal",
+                // настройки (не обязательно), см. API
+            });
+            </script>
+    </div>
+        <div class="back"><img src="media/photo/back.png" class="back-img" alt="" draggable="false"></div>
+        <div class="black"></div>
+        <div class="aurum"><img src="media/photo/золотая часть.png" alt="" draggable="false" class="aurum-img"></div>
+        <div class="saints"><img src="media/photo/saint.png" alt=""draggable= "false"></div>
+        <div class="serafim"><img src="media/photo/serafim.png" alt="" draggable="false"></div>
+        <div class="church"><img src="media/photo/church.png" alt="" draggable="false"></div>
+        <div id="mesta" class="pustinka"><img class="fon" src="media/photo/pustinka.png" alt="" draggable="false" data-hystmodal="#myModal"></div>
+        <div class="sobor"><img src="media/photo/sobor.png" alt="" draggable="false" data-hystmodal="#myModal-2"></div>
+        <div class="near-pustinka"><img src="media/photo/blizhnyaya-pustynka9.png" alt="" draggable="false" data-hystmodal="#myModal-3"></div>
+        <div id="maps" class="sobor2"><img src="media/photo/sobor2.png" alt="" draggable="false"></div>
+        <div class="gerb"><img src="media/photo/gerb.png" alt="" draggable="false"></div>
+        <!--<div class="radio" id="rad">
+                
+                    <label class="radio-button">
+                        <input type="radio" name="maps" value="1" class="fruit_radio">
+                        <span class="radio-in"><img class="map-img" src="media/map/uspenskij-sobor_80a5ba52-fe94-49d6-b12c-98dc80bdd4eb.png" width="100px" height="100px" checked="checked"></span>
+                    </label>
+                    <label class="radio-button">
+                        <input type="radio" name="maps" value="2" class="fruit_radio">
+                        <span class="radio-in"><img class="map-img" src="media/map/hram-v-chest-useknoveniya-glavy-ioanna-predtechi_43ca9edd-88fc-4a5d-9360-acaa586f2d24.png" width="79px" height="79px"></span>
+                    </label>
+                    <label class="radio-button">
+                        <input type="radio" name="maps" value="3" class="fruit_radio">
+                        <span class="radio-in"><img class="map-img" src="media/map/hram-v-chest-prepodobnogo-serafima-sarovskogo_031bb7e6-2482-4986-8d99-d76397f953fb.png" width="79px" height="79px"></span>
+                    </label>
+                    <label class="radio-button">
+                        <input type="radio" name="maps" value="4" class="fruit_radio">
+                        <span class="radio-in"><img class="map-img" src="media/map/hram-v-chest-prepodobnogo-serafima-sarovskogo_031bb7e6-2482-4986-8d99-d76397f953fb.png" width="79px" height="79px"></span>
+                    </label>
+            </div> --> 
+            
+        <span class="text-1">Дальняя пустынка</span>
+        <span class="text-2">Успенский<br>собор</span>
+        <span class="text-3">Ближняя<br>пустынка</span>
+       
+   </div>
+   <footer>
+    <div id="contacts" class="year">2024</div>
+   </footer>
+</body>
+</html>
